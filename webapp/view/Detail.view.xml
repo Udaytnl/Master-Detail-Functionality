@@ -1,0 +1,38 @@
+<mvc:View controllerName="com.masterdetail.Master-Detail.controller.Detail" xmlns="sap.m" xmlns:semantic="sap.f.semantic"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Page>
+		<content>
+			<!--Object Header-->
+			<ObjectHeader id="objecthead" title="" number="" numberUnit="">
+				
+				<statuses>
+					<ObjectStatus id="status1" text="" state="Error"/>
+				</statuses>
+				<attributes>
+					<ObjectAttribute id="attr1" text=""/>
+				</attributes>
+				
+			</ObjectHeader>
+			
+			
+			<!--Table-->
+			<Table id="PropertyTable" updateFinished="render">
+				<columns>
+					<Column id="productCol" width="12em">
+						<Text text="Sales Order Number"/></Column>
+					<Column id="supplierCol" minScreenWidth="Tablet" demandPopin="true">
+						<Text text="Ship to country"/></Column>
+				</columns>
+			</Table>
+		</content>
+		<footer>
+			<OverflowToolbar id="footer" width="100%" height="46px" design="Auto" enabled="true" visible="true">
+				<content>
+					<ToolbarSpacer width=""/>
+					<Button text="Next Screen" type="Accept" iconFirst="false" width="auto" enabled="true" visible="true" iconDensityAware="false"
+						press="NextScreen"/>
+				</content>
+			</OverflowToolbar>
+		</footer>
+	</Page>
+</mvc:View>

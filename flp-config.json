@@ -1,0 +1,35 @@
+{
+    "application": {
+        "id": "",
+        "title": "com.masterdetail.Master-Detail.Master-Details_Functionality",
+        "description": "First_app",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/",
+        "appUrl": "#MasterDetails_Functionality-Display",
+        "navigationComponentName": "com.masterdetail.Master-Detail",
+        "intentSemanticObject": "Master-Details_Functionality",
+        "intentAction": "Display",
+        "html5ApplicationName": "masterdetailsfunctionality",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [
+            "7e56891d-1f7c-4c00-b035-c2ab8998efea"
+        ],
+        "contentPackages": [
+            "c888c5dc-68e7-4161-af7f-86793ee55987"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "StaticTile",
+        "title": "First_Tile",
+        "subtitle": "New_Tile",
+        "searchKeywords": "First_Tile,New_Tile",
+        "displayIconUrl": "sap-icon://action",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "",
+        "refreshInterval": ""
+    }
+}

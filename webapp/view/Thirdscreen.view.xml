@@ -1,0 +1,32 @@
+<mvc:View
+	controllerName="com.masterdetail.Master-Detail.controller.Thirdscreen"
+	xmlns="sap.m"
+	xmlns:semantic="sap.f.semantic"
+	xmlns:mvc="sap.ui.core.mvc">
+<Page>
+	<content>
+	<List
+		items="{/ProductSet}"
+		headerText="Third Screen Products">
+		<items>
+			<ObjectListItem
+				title="{ProductID}"
+				type="Active"
+				press="onSelectionChange"
+				number="{
+					parts:[{path:'Price'},{path:'CurrencyCode'}],
+					type: 'sap.ui.model.type.Currency',
+					formatOptions: {showMeasure: false}
+				}"
+				numberUnit="{CurrencyCode}">
+				
+				<attributes>
+					<ObjectAttribute text="{Category}" />
+					<ObjectAttribute text="{Name}" />
+				</attributes>
+			</ObjectListItem>
+		</items>
+	</List>
+	</content>
+	</Page>
+</mvc:View>

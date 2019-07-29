@@ -1,3 +1,4 @@
+//Making the following changes in the Detail Controller
 var oModel;
 sap.ui.define([
 	"./BaseController",

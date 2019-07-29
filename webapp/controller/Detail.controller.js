@@ -1,4 +1,6 @@
 //Making the following changes in the Detail Controller
+
+//The CHnages from Branch1
 var oModel;
 sap.ui.define([
 	"./BaseController",

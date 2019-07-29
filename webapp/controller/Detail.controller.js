@@ -2,6 +2,7 @@
 //Making the following changes in the Detail Controller
 
 //CHanges from Branch 1 are mentioned here
+//These Changes will be published to the Branch 1 of the Git repository
 var oModel;
 sap.ui.define([
 	"./BaseController",

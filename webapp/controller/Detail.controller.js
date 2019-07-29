@@ -1,7 +1,7 @@
+//Chanes done from Master
 //Making the following changes in the Detail Controller
 
-//Second Changes from Branch2
-//The CHnages from Branch1
+//CHanges from Branch 1 are mentioned here
 var oModel;
 sap.ui.define([
 	"./BaseController",
